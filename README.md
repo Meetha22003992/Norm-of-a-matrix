@@ -36,9 +36,13 @@ print(norm)
 
 # Infinity Norm of a Matrix
 import numpy as np
+
 a=np.array(eval(input()))
+
 sol=np.linalg.norm(a,np.inf)
+
 norm="{:.2f}".format(sol)
+
 print(norm)
 ```
 ## Output:
